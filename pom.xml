@@ -129,8 +129,9 @@
                     <excludePackageNames>*.impl</excludePackageNames>
                     <links>
                         <link>http://docs.oracle.com/javase/8/docs/api/</link>
-                        <link>http://sling.apache.org/apidocs/sling8</link>
-                        <link>https://osgi.org/javadoc/r6/cmpn</link>
+                        <link>http://docs.oracle.com/javaee/7/api/</link>
+                        <link>http://sling.apache.org/apidocs/sling11</link>
+                        <link>https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/reference-materials/javadoc/</link>
                     </links>
                     <quiet>true</quiet>
                     <failOnError>false</failOnError>
