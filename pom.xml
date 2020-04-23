@@ -19,6 +19,8 @@
         <maven.junit.usefile>false</maven.junit.usefile>
     </properties>
 
+    <url>https://github.com/AvionosLLC/cacheable-renditions</url>
+
     <developers>
         <developer>
             <name>Mark Daugherty</name>
