@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Cacheable Renditions OSGi bundle for the Adobe Experience Manager (AEM) platform provides Dispatcher-cacheable paths for asset renditions.  By default, AEM rendition paths use a suffix to specify the rendition name, which prevents these assets from being cached in Dispatcher due to the collision between the shared paths.  The `CacheableRendition` implementation and servlet provided in this bundle create a new rendition path that uses a new extension to eliminate the need for a suffix, which allows the asset to be cached in Dispatcher in the same manner as the original asset.  The default rendition path and rendering behavior is not altered.
+The Cacheable Renditions OSGi bundle for the Adobe Experience Manager (AEM) platform provides Dispatcher-cacheable paths for asset renditions.  By default, AEM rendition paths use a suffix to specify the rendition name, which can prevent these assets from being cached in Dispatcher when there is collision between the rendition path and the base asset path.  The `CacheableRendition` implementation and servlet provided in this bundle create an alternate rendition path that uses a new extension that prevents this collision and allows the asset to be cached in Dispatcher in the same manner as the original asset.  The default rendition path and rendering behavior is not altered.
 
 ## Cacheable Rendition Path Syntax
 
