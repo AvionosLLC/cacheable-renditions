@@ -11,13 +11,15 @@
     <description>
         OSGi bundle for Adobe Experience Manager (AEM) that provides Dispatcher-cacheable paths for asset renditions.
     </description>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.junit.usefile>false</maven.junit.usefile>
     </properties>
+
+    <url>https://github.com/AvionosLLC/cacheable-renditions</url>
 
     <developers>
         <developer>
