@@ -83,6 +83,10 @@ Add the bundle as a Maven dependency to an existing project's OSGi bundle `pom.x
 </dependencies>
 ```
 
+## Javadocs
+
+https://javadoc.io/doc/com.avionos.aem.cacheablerenditions/cacheable-renditions/latest/index.html
+
 ## Versioning
 
 Follows [Semantic Versioning](http://semver.org/) guidelines.
