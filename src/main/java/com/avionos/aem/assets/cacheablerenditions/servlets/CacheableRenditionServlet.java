@@ -76,7 +76,7 @@ public final class CacheableRenditionServlet extends SlingSafeMethodsServlet {
     }
 
     private Rendition getRendition(final Asset asset, final String renditionName) {
-        return getRenditionForName(asset, renditionName).orElse(getRenditionForBaseName(asset, renditionName));
+        return getRenditionForName(asset, renditionName).orElseGet(() -> getRenditionForBaseName(asset, renditionName));
     }
 
     private Rendition getRenditionForBaseName(final Asset asset, final String renditionName) {
